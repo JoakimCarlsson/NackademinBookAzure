@@ -8,6 +8,7 @@ namespace NackademinBookAzure.Data
     {
         public static void SeedData(BookDbContext dbContext)
         {
+            dbContext.Database.Migrate();
             SeedBooks(dbContext);
         }
 
