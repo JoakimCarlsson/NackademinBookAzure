@@ -1,6 +1,4 @@
-using System;
-
-namespace NackademinBookAzure.Models
+namespace NackademinBookAzure.ViewModels
 {
     public class ErrorViewModel
     {
